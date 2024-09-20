@@ -1,48 +1,35 @@
 # Inventory Management System
 
-## Overview
-
-The **Inventory Management System** is a Python application designed to help users manage their inventory efficiently. It allows you to add items, view inventory, manage suppliers, and record transactions through a command-line interface.
+A robust **Inventory Management System** built with Python and SQLAlchemy, designed to effectively manage stock. This CLI application allows users to add items, view inventory, manage suppliers, and record transactions.
 
 ## Features
 
-- **Add Items**: Insert new items into the inventory with details such as name, price, and quantity.
-- **View Inventory**: Display all items currently in stock.
+- **Add New Items**: Insert new inventory items with details like name, price, and quantity.
+- **View Inventory**: List all items currently in stock along with their respective details.
 - **Manage Suppliers**: Add and view supplier information.
-- **Record Transactions**: Keep track of sales transactions.
+- **Record Transactions**: Keep track of sales transactions associated with inventory items.
 
 ## Getting Started
 
+To set up the Inventory Management System on your local machine, follow these steps:
+
 ### Prerequisites
 
-- **Python 3.x**: Ensure Python is installed on your machine.
-- **SQLAlchemy**: Required for database interactions.
+Ensure you have the following installed:
 
-### Installation
+- **Python 3.x**: [Download from python.org](https://www.python.org/downloads/).
+- **Pipenv**: Use `pip install pipenv` to install if not already available.
 
-1. **Clone the repository**:
+### Set Up a Virtual Environment
 
-   ```bash
-   git clone https://github.com/your-username/inventory_proj.git
-   cd inventory_proj
-
-###Set up a Virtual Environment:
-
-###bash
-Copy code
+```bash
 python3 -m venv venv
 source venv/bin/activate
-Install Dependencies:
 
+Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
-Running the Application
-Activate the virtual environment (if not already):
-
-bash
-Copy code
-source venv/bin/activate
 Run the main program:
 
 bash
@@ -70,3 +57,5 @@ transactions: Records sales transactions (id, item_id, quantity_sold, transactio
 License
 This project is licensed under the MIT License. For more details, refer to the LICENSE file.
 
+Repository
+You can clone the project from here.
