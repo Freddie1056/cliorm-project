@@ -25,9 +25,10 @@ The **Inventory Management System** is a Python application designed to help use
    ```bash
    git clone https://github.com/your-username/inventory_proj.git
    cd inventory_proj
-Set up a Virtual Environment:
 
-bash
+###Set up a Virtual Environment:
+
+###bash
 Copy code
 python3 -m venv venv
 source venv/bin/activate
